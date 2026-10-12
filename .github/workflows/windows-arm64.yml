@@ -3,7 +3,7 @@ name: Windows ARM64 wheel
 on:
   pull_request:
   push:
-    branches: [master]
+    branches: [master, verify/windows-arm64-versions]
     tags: ['*']
   workflow_dispatch:
 
